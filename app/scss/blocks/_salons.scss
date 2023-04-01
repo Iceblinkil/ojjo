@@ -1,0 +1,48 @@
+.salons {
+    background: url("../../img/salons/bg__salons.png") center (center/cover) no-repeat;
+    min-height: 540px;
+    padding: 100px 0;
+    margin-bottom: 120px;
+    &__subtitle {
+        margin-bottom: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__title {
+        margin-bottom: 45px;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__descr {
+        margin-bottom: 60px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__button {
+        width: 224px;
+        height: 51px;
+        display: block;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $main-color;
+        cursor: pointer;
+    }
+}
