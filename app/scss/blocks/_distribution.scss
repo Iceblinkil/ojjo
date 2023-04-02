@@ -1,0 +1,89 @@
+.distribution {
+    min-height: 478px;
+    background: url("../../img/distribution/bg__distribution.png") center (center/cover) no-repeat;
+    margin-bottom: 120px;
+    padding: 100px 0;
+    &__subtitle {
+        margin-bottom: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__title {
+        margin-bottom: 60px;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__content {
+        padding-left: 40px;
+        min-height: 115px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 75px;
+    }
+    &__advantages {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 115px;
+        &-descr {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+    }
+    &__form {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 450px;
+        height: 115px;
+        padding: 15px;
+        border: solid 1px #ffffff;
+        &-wrapper {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 420px;
+            height: 85px;
+            background-color:#ffffff;
+        }
+        &-email {
+            width: 200px;
+            height: 45px;
+            padding: 15px 20px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: rgb(51, 51, 51);
+            border-color: solid 1px #ffffff;
+        }
+        &-button {
+            width: 150px;
+            height: 45px;
+            padding: 15px 20px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background-color: $main-color;
+            border:none;
+            cursor: pointer;
+        }
+    }
+}
