@@ -45,25 +45,13 @@
             color: #ffffff;
             background-color: $main-color;
         }
-        &::after {
-            content: '';
-            position: absolute;
-            top: 6px;
-            left: 100%;
-            width: 6px;
-            height: 1px;
-            background-color: #D6D6D6;
-        }
-        &::before {
-            content: '';
-            position: absolute;
-            top: 6px;
-            left: 104%;
-            width: 1px;
-            height: 65px;
-            background-color: #D6D6D6;
-        }
     }
+
+    .mixitup-control-active {
+        background-color:$main-color;
+        color: #ffffff;
+    }
+
     &__items {
         display: grid;
         gap: 30px;
