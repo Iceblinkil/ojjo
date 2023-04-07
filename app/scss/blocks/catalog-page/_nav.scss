@@ -1,0 +1,15 @@
+.catalog-page__nav {
+    min-height: 110px;
+    background-color: $main-color;
+    &__wrapper {
+        display: flex;
+    }
+    &-left {
+        max-width: 350px;
+        display: flex;
+    }
+    &-right {
+        max-width: 350px;
+        display: flex;
+    }
+}
