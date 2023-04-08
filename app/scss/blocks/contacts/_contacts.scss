@@ -1,0 +1,129 @@
+.contacts {
+    margin-bottom: 100px;
+    &__nav {
+        &_wrapper {
+            margin-bottom: 65px;
+            display: flex;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: $main-color;
+            gap: 40px;
+            text-align: center;
+            justify-content: center;
+            :hover {
+                text-decoration-line: underline;
+            }
+        }
+        &-main {
+            color: $main-color;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                background-color: $main-color;
+                top: 13%;
+                left: 139%;
+                width: 1px;
+                height: 17px;
+                transform: rotateZ(12deg);
+            }
+        }
+        &-contacts {
+            color: $main-color;
+        }
+    }
+    &__main {
+        &-title {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: $main-color;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        &-wrapper{
+            display: flex;
+            font-size: 14px;
+            color: $main-color;
+            margin-bottom: 120px;
+            justify-content: space-between;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                background-color: #D6D6D6;
+                top: 150%;
+                left: 0;
+                width: 100%;
+                height: 1px;
+            }
+        }
+        &-subtitle {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 140%;
+            color: $main-color;
+            margin-bottom: 25px;
+        }
+        &-item {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-left: 30px;
+        }
+        &-office {
+            position: relative;
+            &::before {
+                content: '';
+                background: url('../../../icon/contacts/location.svg') no-repeat;
+                position: absolute;
+                top: 0;
+                left: -30px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &-telephone {
+            color: $main-color;
+            position: relative;
+            &::before {
+                content: '';
+                background: url('../../../icon/contacts/carbon_phone.svg') no-repeat;
+                position: absolute;
+                top: 0;
+                left: -30px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &-email {
+            color: $main-color;
+            position: relative;
+            &::before {
+                content: '';
+                background: url('../../../icon/contacts/mail.svg') no-repeat;
+                position: absolute;
+                top: 0;
+                left: -30px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &-address {
+            position: relative;
+            &::before {
+                content: '';
+                background: url('../../../icon/contacts/location.svg') no-repeat;
+                position: absolute;
+                top: 0;
+                left: -30px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}

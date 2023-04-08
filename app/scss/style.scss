@@ -4,13 +4,15 @@
 @import 'libs/libs';
 @import 'base/global';
 
-@import 'blocks/promo';
-@import 'blocks/catalog';
-@import 'blocks/salons';
-@import 'blocks/advice';
-@import 'blocks/social';
-@import 'blocks/distribution';
-@import 'blocks/footer';
+// main
+
+@import 'blocks/main/promo';
+@import 'blocks/main/catalog';
+@import 'blocks/main/salons';
+@import 'blocks/main/advice';
+@import 'blocks/main/social';
+@import 'blocks/main/distribution';
+@import 'blocks/main/footer';
 
 // catalog-page
 
@@ -18,3 +20,8 @@
 @import 'blocks/catalog-page/filter';
 @import 'blocks/catalog-page/catalog-page';
 @import 'blocks/catalog-page/advantages';
+
+// contacts
+
+@import 'blocks/contacts/contacts';
+@import 'blocks/contacts/map';

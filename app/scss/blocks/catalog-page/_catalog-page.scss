@@ -1,10 +1,12 @@
 .catalog-page {
     margin-bottom: 100px;
-    &__wrapper {
-
-    }
     &__items {
-
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+        row-gap: 120px;
     }
     &__item {
         padding: 35px;
