@@ -16,17 +16,17 @@
         <nav>
             <div class="catalog-page__nav">
                 <div class="container">
-                    <div class="catalog-page__wrapper">
+                    <div class="catalog-page__nav-wrapper">
                         <div class="catalog-page__nav-left">
                             <a class="catalog-page__nav_link" href="#">Контрагентам</a>
                             <a class="catalog-page__nav_link" href="#">Дизайнерам</a>
                             <a class="catalog-page__nav_link" href="#">Вакансии</a>
                         </div>
-                        <a class="catalog-page__nav-logo" href="#"><img class="catalog-page__nav-logo-img" src="icon/logo.svg" alt="logo"></a>
+                        <a class="catalog-page__nav-logo" href="index.html"><img class="catalog-page__nav-logo-img" src="icon/logo.svg" alt="logo"></a>
                         <div class="catalog-page__nav-right">
-                            <form action="/search" method="get">
-                                <label class="catalog-page__nav_search" for="search"></label>
-                                <input type="text" id="search" name="search">
+                            <form class="catalog-page__nav-form" action="/search" method="get">
+                                <label class="catalog-page__nav-search" for="search"></label>
+                                <input class="catalog-page__nav-input" type="text" id="search" name="search" placeholder ="Поиск">
                             </form> 
                             <a class="catalog-page__nav_link" href="#">Вход/Регистрация</a>
                             <a class="catalog-page__nav_link" href=""><img class="catalog-page__nav_link-account" src="icon/promo/account.svg" alt="account"></a>
@@ -40,7 +40,56 @@
 
     <!-- MAIN -->
     <main>
+        <section class="filter">
+            <div class="container">
+                <div class="filter__wrapper">
+                    
+                    <select class="filter__select" id="brand" name="brand">
+                      <option value="">Бренд</option>
+                      <option value="brand1">Бренд 1</option>
+                      <option value="brand2">Бренд 2</option>
+                      <option value="brand3">Бренд 3</option>
+                    </select>
+                    
+                    <select class="filter__select" id="price" name="price">
+                      <option value="">Цена</option>
+                      <option value="0-100">$0 - $100</option>
+                      <option value="100-200">$100 - $200</option>
+                      <option value="200-300">$200 - $300</option>
+                    </select>
 
+                    <select class="filter__select" id="audience" name="audience">
+                      <option value="">Для кого</option>
+                      <option value="men">Мужчины</option>
+                      <option value="women">Женщины</option>
+                      <option value="kids">Дети</option>
+                    </select>
+                    
+                    <select class="filter__select" id="collection" name="collection">
+                        <option value="">Коллекция</option>
+                        <option value="collection1">Коллекция 1</option>
+                        <option value="collection2">Коллекция 2</option>
+                        <option value="collection3">Коллекция 3</option>
+                    </select>
+
+                    <select class="filter__select" id="season" name="season">
+                        <option value="">Сезон</option>
+                        <option value="winter">Зима</option>
+                        <option value="spring">Весна</option>
+                        <option value="summer">Лето</option>
+                        <option value="fall">Осень</option>
+                    </select>
+
+                    <select class="filter__select" id="event" name="event">
+                        <option value="">Событие</option>
+                        <option value="event1">Свадьба</option>
+                        <option value="event2">День рождения</option>
+                        <option value="event3">Юбилей</option>
+                    </select>
+
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- FOOTER -->
