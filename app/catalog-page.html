@@ -40,53 +40,138 @@
 
     <!-- MAIN -->
     <main>
+
         <section class="filter">
             <div class="container">
                 <div class="filter__wrapper">
                     
-                    <select class="filter__select" id="brand" name="brand">
-                      <option value="">Бренд</option>
-                      <option value="brand1">Бренд 1</option>
-                      <option value="brand2">Бренд 2</option>
-                      <option value="brand3">Бренд 3</option>
-                    </select>
+                    <div class="filter__select-style">
+                        <select class="filter__select" id="brand" name="brand">
+                            <option value="">Бренд</option>
+                            <option value="brand1">Cartier</option>
+                            <option value="brand2">Tiffany & Co</option>
+                            <option value="brand3">Bulgari</option>
+                            <option value="brand4">Van Cleef & Arpels</option>
+                            <option value="brand5">Harry Winston</option>
+                            <option value="brand6">Graff</option>
+                            <option value="brand7">Chopard</option>
+                          </select>
+                    </div>
                     
-                    <select class="filter__select" id="price" name="price">
-                      <option value="">Цена</option>
-                      <option value="0-100">$0 - $100</option>
-                      <option value="100-200">$100 - $200</option>
-                      <option value="200-300">$200 - $300</option>
-                    </select>
-
-                    <select class="filter__select" id="audience" name="audience">
-                      <option value="">Для кого</option>
-                      <option value="men">Мужчины</option>
-                      <option value="women">Женщины</option>
-                      <option value="kids">Дети</option>
-                    </select>
+                    <div class="filter__select-style">
+                        <select class="filter__select" id="price" name="price">
+                            <option value="">Цена</option>
+                            <option value="0-500">$0 - $500</option>
+                            <option value="500-1000">$500 - $1000</option>
+                            <option value="1000-2000">$1000 - $2000</option>
+                          </select>
+                    </div>
                     
-                    <select class="filter__select" id="collection" name="collection">
-                        <option value="">Коллекция</option>
-                        <option value="collection1">Коллекция 1</option>
-                        <option value="collection2">Коллекция 2</option>
-                        <option value="collection3">Коллекция 3</option>
-                    </select>
+                    <div class="filter__select-style">
+                        <select class="filter__select" id="audience" name="audience">
+                            <option value="">Для кого</option>
+                            <option value="men">Мужчины</option>
+                            <option value="women">Женщины</option>
+                            <option value="kids">Дети</option>
+                          </select>
+                    </div>
+                    
+                    <div class="filter__select-style">
+                        <select class="filter__select" id="collection" name="collection">
+                            <option value="">Коллекция</option>
+                            <option value="collection1">Золотой лист</option>
+                            <option value="collection2">Ледяное сияние</option>
+                            <option value="collection3">Классическая элегантност</option>
+                            <option value="collection4">Магический лес</option>
+                            <option value="collection5">Роскошь и блеск</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter__select-style">
+                        <select class="filter__select" id="season" name="season">
+                            <option value="">Сезон</option>
+                            <option value="winter">Зима</option>
+                            <option value="spring">Весна</option>
+                            <option value="summer">Лето</option>
+                            <option value="fall">Осень</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter__select-style">
+                        <select class="filter__select" id="event" name="event">
+                            <option value="">Событие</option>
+                            <option value="event1">Свадьба</option>
+                            <option value="event2">День рождения</option>
+                            <option value="event3">Юбилей</option>
+                        </select>
+    
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
 
-                    <select class="filter__select" id="season" name="season">
-                        <option value="">Сезон</option>
-                        <option value="winter">Зима</option>
-                        <option value="spring">Весна</option>
-                        <option value="summer">Лето</option>
-                        <option value="fall">Осень</option>
-                    </select>
+        <section class="catalog-page">
+            <div class="container">
+                <div class="catalog-page__wrapper">
+                    <div class="catalog-page__items">
+                        <div class="catalog-page__item">
+                            <img class="catalog-page__item-img" src="img/catalog-item/pendants/pendant-1.png" alt="pendant">
+                            <div class="catalog-page__item-category">Подвеска</div>
+                            <div class="catalog-page__item-brand">Dolce & Gabanna</div>
+                            <div class="catalog-page__item-price">1850$</div>
+                            <button class="catalog-page__item-btn"><a class="catalog-page__item-more" href="#">подробнее</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    <select class="filter__select" id="event" name="event">
-                        <option value="">Событие</option>
-                        <option value="event1">Свадьба</option>
-                        <option value="event2">День рождения</option>
-                        <option value="event3">Юбилей</option>
-                    </select>
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages__wrapper">
+                    <div class="advantages__text">
+                        <p>
+                            Добро пожаловать в магазин ювелирных изделий Ojjo! Мы рады предложить вам широкий ассортимент украшений, от классических до современных дизайнов. Мы стремимся предоставить нашим клиентам не только качественный товар, но и отличный сервис.
+                            Наша главная цель - сделать вас счастливыми своим выбором и подарить улыбку на лице. Для этого мы предлагаем бесплатную доставку по всей стране, чтобы вы могли получить свои изделия прямо на дом без дополнительных затрат. Мы заботимся о том, чтобы ваши покупки были как можно более комфортными, и поэтому предоставляем бесплатную примерку, чтобы вы могли убедиться, что ваш выбор идеально подходит к вашему стилю.
+                        </p>
+                        <details class="advantages__details">
+                            <summary class="advantages__summary">Читать полностью</summary>
+                            <p>
+                                Мы уверены, что каждый человек уникален, и поэтому предлагаем индивидуальный дизайн украшений. Наша команда опытных дизайнеров поможет вам создать уникальное изделие, которое подчеркнет вашу индивидуальность. Мы заботимся о том, чтобы ваше общение с нами было приятным и запоминающимся, поэтому всегда готовы предоставить личный подход к каждому клиенту.
 
+                                Быстрая доставка - это наша визитная карточка. Мы знаем, что для вас важно получить свой заказ как можно скорее, и поэтому мы готовы отправить его в тот же день, если вы сделали заказ до 12:00. И для того, чтобы вы всегда могли получить консультацию или помощь, мы предоставляем поддержку в нашем телеграм-боте с 9 до 19.
+
+                                Мы ценим каждого нашего клиента и готовы предоставить лучший сервис и качественный товар. Сделайте свой выбор с Ojjo и мы обещаем, что вы не пожалеете!
+                            </p>
+                          </details>
+                    </div>
+                    <div class="advantages__items">
+                        <div class="advantages__item">
+                            <img class="advantages__img" src="icon/advantages/delivery.svg" alt="delivery">
+                            <div class="advantages__descr">
+                                Бесплатная доставка
+                            </div>
+                        </div>
+                        <div class="advantages__item">
+                            <img class="advantages__img" src="icon/advantages/jewelry.svg" alt="jewelry">
+                            <div class="advantages__descr">
+                                Индивидуальный дизайн
+                            </div>
+                        </div>
+                        <div class="advantages__item">
+                            <img class="advantages__img" src="icon/advantages/ribbon-design.svg" alt="ribbon-design">
+                            <div class="advantages__descr">
+                                Бесплатная примерка
+                            </div>
+                        </div>
+                        <div class="advantages__item">
+                            <img class="advantages__img" src="icon/advantages/list.svg" alt="list">
+                            <div class="advantages__descr">
+                                Личный подход
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
