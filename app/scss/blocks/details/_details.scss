@@ -1,0 +1,36 @@
+.details {
+    margin-bottom: 100px;
+    &__nav {
+        &_wrapper {
+            margin-bottom: 65px;
+            display: flex;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: $main-color;
+            gap: 40px;
+            text-align: center;
+            justify-content: center;
+            :hover {
+                text-decoration-line: underline;
+            }
+        }
+        &-item {
+            color: $main-color;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                background-color: $main-color;
+                top: 13%;
+                left: 130%;
+                width: 1px;
+                height: 17px;
+                transform: rotateZ(12deg);
+            }
+            &:nth-last-child(1)::before {
+                display: none;
+              }
+        }
+    }
+}
