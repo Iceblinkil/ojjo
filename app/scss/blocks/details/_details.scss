@@ -33,4 +33,13 @@
               }
         }
     }
+    &__description {
+        min-height: 580px;
+        margin-bottom: 100px;
+        &-wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 540px);
+            justify-content: space-between;
+        }
+    }
 }
