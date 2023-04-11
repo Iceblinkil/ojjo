@@ -24,6 +24,7 @@
         color: $main-color;
     }
     &__button {
+        background-color: #ffffff;
         width: 165px;
         position: relative;
         height: 61px;
@@ -41,9 +42,21 @@
         cursor: pointer;
         border: solid 1px #D6D6D6;
         transition: 0.5s all;
+        position: relative;
         &:hover {
             color: #ffffff;
             background-color: $main-color;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            right: -6px;
+            bottom: -6px;
+            border: 1px solid #D6D6D6;
+            pointer-events: none;
+            z-index: -5;
         }
     }
 
