@@ -1,0 +1,71 @@
+.recommendations {
+    color: $main-color;
+    margin-bottom: 120px;
+    &__subtitle {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 140%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    &__title {
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+        row-gap: 120px;
+    }
+    &__item {
+        padding: 35px;
+        width: 350px;
+        min-height: 500px;
+        color: $main-color;
+        text-align: center;
+        &-img {
+            margin-bottom: 25px;
+        }
+        &-category {
+            margin-bottom: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+        }
+        &-brand {
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 140%;
+        }
+        &-price {
+            color: $main-color;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 140%;
+        }
+        &-btn {
+            width: 125px;
+            height: 40px;
+            background-color: $main-color;
+            border: none;
+        }
+        &-more {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;color: #FFFFFF;
+        }
+    }
+}

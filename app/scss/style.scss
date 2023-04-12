@@ -6,6 +6,7 @@
 
 // main
 
+@import 'blocks/main/promo__nav';
 @import 'blocks/main/promo';
 @import 'blocks/main/catalog';
 @import 'blocks/main/salons';
@@ -30,3 +31,4 @@
 
 @import 'blocks/details/details';
 @import 'blocks/details/full-description';
+@import 'blocks/details/recommendations';
